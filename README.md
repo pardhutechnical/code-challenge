@@ -2,11 +2,6 @@
 # Transactionstatistics
 Calculate​ ​ realtime​ ​ statistic​ ​ from​ ​ the​ ​ last​ ​ 60​ ​ seconds
 
-# Why ConcurrentSkipListMap?
-1. API​ ​ have​ ​ to​ ​ be​ ​ threadsafe​ ​ with​ ​ concurrent​ ​ requests
-2. In​ ​ memory​ ​ solution​ ​ without​ ​ database
-3. Endpoints​ ​ have​ ​ to​ ​ execute​ ​ in​ ​ constant​ ​ time​ ​ and​ ​ memory​
-
 # To run the test
 mvn test
 
