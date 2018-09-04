@@ -18,9 +18,9 @@ mvn test
 
 Request Payload
 
-{ 
-"amount":45.3,
-"timestamp":1526755536459
+{
+  "amount": "12.3343",
+  "timestamp": "2018-07-17T09:59:51.312Z"
 }
 
 # For /statistics call
@@ -28,9 +28,9 @@ Request Payload
 Response
 
 {
-	"sum": 93.9,
-	"avg": 31.3,
-	"max": 45.3,
-	"min": 24.3,
-	"count": 3
+  "sum": "1000.00",
+  "avg": "100.53",
+  "max": "200000.49",
+  "min": "50.23",
+  "count": 10
 }
